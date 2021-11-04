@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/OYsrGmR.jpg");
+}
+
+.container {
+    display: flex;
+    grid-gap: 20px;
+    place-content: start;
+    border-radius: 10px;
+    padding: 20px;
+    align-content: space-evenly;
+    justify-items: stretch;
+}
+
+.child {
+    width: 50%;
+    flex: 1;
+    line-height: 30px;
+}
+
+.child:first-child {
+    margin-right: 20px;
+}
+h6{
+    padding-bottom: 10px;
+}
+
+span{
+    display: flex;
+    position: relative;
+    float: right;
+}
+.float-child{
+    cursor: pointer;
+}
+svg {
+    display: inline;
+}
+
+button {
+    line-height: 1em;
+}
+.invisible {
+    visibility: hidden;
+}
